@@ -25,3 +25,16 @@ In a terminal:
 1. Navigate to the cloned repository with `cd`
 2. Run milestone_3 with `python milestone_3.py`
 3. It will ask you for input. If your guess is in the random word, you will see "Good Guess!"
+
+## Milestone 4
+
+In a terminal:
+
+1. Navigate to the cloned repository with `cd`
+2. Run milestone_4 with `python milestone_4.py`
+3. Try taking a guess at a letter in the word.
+4. You will lose a life if you incorrectly guess a letter in the word.
+
+# License
+
+MIT license. See `LICENSE` for information.
