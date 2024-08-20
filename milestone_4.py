@@ -30,10 +30,7 @@ class Hangman:
             print(f"You have {self.__num_lives} lives left")
 
     def ask_for_input(self):
-        """Ask for a letter input from the user.
-
-        Loops indefinitely.
-        """
+        """Ask for a letter input from the user."""
         while True:
             guess = input("Guess a letter in the word: ")
             if not guess.isalpha() and len(guess) != 1:
@@ -43,6 +40,7 @@ class Hangman:
             else:
                 self._check_guess(guess)
                 self.__list_of_guesses.append(guess)
+                break
 
 hangman = Hangman(word_list=word_list)
 hangman.ask_for_input()
